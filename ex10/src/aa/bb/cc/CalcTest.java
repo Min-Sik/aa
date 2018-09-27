@@ -8,7 +8,8 @@ class CalcTest {
 
 	@Test
 	void test() {
-		assertEquals(Calc.sum(3,2), 5);
+		assertEquals(Calc.sum(2,2), 4);
+		assertEquals(Calc.sum(45,3), 48);
 	}
 
 }
